@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff0f6;
+    color: #333;
+    height:100vh;
+}
+
+header {
+    padding: 20px;
+    background-color: #fcc2d7;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.header-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    cursor:pointer;
+    
+}
+h1 a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Keeps the text color the same as the h1 */
+}
+.role {
+    font-size: 16px;
+    color: #777;
+    text-decoration:none;
+
+}
+span a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Keeps the text color the same as the h1 */
+}
+.navigation {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border-radius: 25px;
+    cursor:pointer;
+}
+/* RESUME */
+
+.resume {
+    margin-top:70px;
+}
+
+.volunteer-experiences,
+.leadership-management,
+.education  {
+    border-bottom: 4px solid #dee2e6;
+    padding-bottom:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+}
+.resume-text h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    margin-left:10px;
+    text-align: center;
+}
+.situation ul  {
+    list-style: square inside;
+    padding: 0;
+    text-align: left;
+}
+.situation ul li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.time{
+    font-weight:400;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.situation h3 {
+    font-size:28px;
+}
+.description {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+ul {
+    line-height: 30px;
+}
+
+/* fOOTER*/
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-info, .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+
+}
+.social-icon {
+    font-size: 24px;
+    text-decoration: none;
+    color: #3b5998;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+}
+.facebook-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #2d4373;
+}
+footer p {
+    font-size: 14px;
+    color: #777;
+}

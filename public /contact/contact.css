@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff0f6;
+    color: #333;
+    height:100vh;
+}
+
+header {
+    padding: 20px;
+    background-color: #fcc2d7;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    display:flex;
+    justify-content: space-around;
+}
+
+.header-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+}
+h1 a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Keeps the text color the same as the h1 */
+}
+.role {
+    font-size: 16px;
+    color: #777;
+    text-decoration:none;
+
+}
+span a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Keeps the text color the same as the h1 */
+}
+.navigation {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border-radius: 25px;
+    cursor:pointer;
+}
+
+/* CONTACT */
+.contact {
+    max-width: 800px; /* Reduce the overall width */
+    width: 100%;      /* Keep it responsive */
+    padding: 20px;    /* Adjust the internal space */
+    margin: 0 auto;   
+    padding-top:10%;
+}
+
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #e0cfcf;
+    border-radius: 10px;
+    background-color: #fff5f5;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #666;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #555;
+}
+/* FOOTER */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-info, .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+
+}
+.social-icon {
+    font-size: 24px;
+    text-decoration: none;
+    color: #3b5998;
+    font-weight: bold;
+    display: flex;
+    align-items: left;
+}
+.facebook-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.social-icon:hover {
+    color: #2d4373;
+}
+footer p {
+    font-size: 14px;
+    color: #777;
+}
